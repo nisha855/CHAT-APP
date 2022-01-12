@@ -1,6 +1,7 @@
 body{
     height:100vh;
-    background-image: linear-gradient(rgb(228, 229, 240),rgb(202, 108, 202));
+    background-image: url(https://thumbs.dreamstime.com/b/patternbubblechat-195025336.jpg);
+    background-position: center;
 }
 .logo{
     display: block;
@@ -25,6 +26,7 @@ h1{
     overflow-y: auto;
     /* auto since agar bahut saare msgs hnge tbhi scroll bar dikhega */
     margin-bottom:23px;
+    background-color:rgb(123, 216, 245)
 
 }
 .message{
@@ -70,4 +72,5 @@ h1{
     border:2px solid black;
     border-radius: 6px;
     height:34px;
+    background-color:rgb(123, 216, 245)
 }

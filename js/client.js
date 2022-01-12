@@ -4,6 +4,8 @@ const form = document.getElementById('send-container');
 const messageInput = document.getElementById('messageInp');
 const messageContainer = document.querySelector(".container");
 //jb bhi msgs aaynge toh kaha daalna h,container k andr
+
+
 var audio=new Audio('ting.mp3');
 
 
@@ -23,7 +25,7 @@ const append=(message, position)=>{
 //prompt message
 //ask new user for his/her name and let the server know
 const name=prompt("enter your name to join");
-socket.emit('new-user-joined',name);
+socket.emit('new-user-joined', name);
 
 //listen to user joined wala event
 //agar kisi user ne join kiya
